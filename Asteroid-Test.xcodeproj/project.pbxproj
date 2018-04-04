@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		D868FC2A2074854800B7D6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868FC292074854800B7D6F7 /* AppDelegate.swift */; };
-		D868FC2C2074854800B7D6F7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D868FC2B2074854800B7D6F7 /* GameScene.sks */; };
-		D868FC2E2074854800B7D6F7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D868FC2D2074854800B7D6F7 /* Actions.sks */; };
 		D868FC302074854800B7D6F7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868FC2F2074854800B7D6F7 /* GameScene.swift */; };
 		D868FC322074854800B7D6F7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868FC312074854800B7D6F7 /* GameViewController.swift */; };
 		D868FC352074854800B7D6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D868FC332074854800B7D6F7 /* Main.storyboard */; };
 		D868FC372074854A00B7D6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D868FC362074854A00B7D6F7 /* Assets.xcassets */; };
 		D868FC3A2074854A00B7D6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D868FC382074854A00B7D6F7 /* LaunchScreen.storyboard */; };
+		D868FC422074856200B7D6F7 /* AsteroidRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868FC412074856200B7D6F7 /* AsteroidRender.swift */; };
+		D868FC442074887300B7D6F7 /* PublicExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D868FC432074887200B7D6F7 /* PublicExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D868FC262074854800B7D6F7 /* Asteroid-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asteroid-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D868FC292074854800B7D6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D868FC2B2074854800B7D6F7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D868FC2D2074854800B7D6F7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		D868FC2F2074854800B7D6F7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D868FC312074854800B7D6F7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D868FC342074854800B7D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D868FC362074854A00B7D6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D868FC392074854A00B7D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D868FC3B2074854A00B7D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D868FC412074856200B7D6F7 /* AsteroidRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidRender.swift; sourceTree = "<group>"; };
+		D868FC432074887200B7D6F7 /* PublicExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +46,7 @@
 			children = (
 				D868FC282074854800B7D6F7 /* Asteroid-Test */,
 				D868FC272074854800B7D6F7 /* Products */,
+				D868FC432074887200B7D6F7 /* PublicExtension.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,8 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				D868FC292074854800B7D6F7 /* AppDelegate.swift */,
-				D868FC2B2074854800B7D6F7 /* GameScene.sks */,
-				D868FC2D2074854800B7D6F7 /* Actions.sks */,
+				D868FC412074856200B7D6F7 /* AsteroidRender.swift */,
 				D868FC2F2074854800B7D6F7 /* GameScene.swift */,
 				D868FC312074854800B7D6F7 /* GameViewController.swift */,
 				D868FC332074854800B7D6F7 /* Main.storyboard */,
@@ -132,10 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D868FC352074854800B7D6F7 /* Main.storyboard in Resources */,
-				D868FC2C2074854800B7D6F7 /* GameScene.sks in Resources */,
 				D868FC372074854A00B7D6F7 /* Assets.xcassets in Resources */,
 				D868FC3A2074854A00B7D6F7 /* LaunchScreen.storyboard in Resources */,
-				D868FC2E2074854800B7D6F7 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D868FC422074856200B7D6F7 /* AsteroidRender.swift in Sources */,
 				D868FC302074854800B7D6F7 /* GameScene.swift in Sources */,
 				D868FC322074854800B7D6F7 /* GameViewController.swift in Sources */,
+				D868FC442074887300B7D6F7 /* PublicExtension.swift in Sources */,
 				D868FC2A2074854800B7D6F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
